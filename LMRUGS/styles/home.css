@@ -1,0 +1,85 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 5px;
+  overflow: hidden;
+  background-color: rgb(7, 156, 133);
+}
+
+li {
+  list-style: none;
+  float: right;
+  margin: 2%;
+  padding: 15px;
+  background-color: blue;
+  border-radius: 10px solid purple;
+}
+
+#logo {
+  height: 120px;
+  width: 120px;
+  margin: 0 auto;
+  display: block;
+  position: absolute;
+  left: calc((100% - 195px) / 2);
+  z-index: 100000;
+}
+
+a {
+  color: white;
+}
+
+#search-bar {
+  padding: 5px;
+}
+
+#search-icon {
+  height: 3%;
+  width: 3%;
+}
+
+#search-icon:hover {
+  cursor: grab;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#alocasia {
+  height: 95%;
+  width: 100%;
+}
+
+#collections {
+  position: absolute;
+  top: 70%;
+  right: 92%;
+  padding: 1%;
+  font-size: 120%;
+  background-color: chartreuse;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 300px;
+  margin-top: 1.5%;
+}
+
+#closeBtn {
+  padding: 1.7%;
+  width: 10%;
+}

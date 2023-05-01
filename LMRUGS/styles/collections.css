@@ -1,0 +1,46 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+#search-icon {
+  height: 7%;
+  width: 5%;
+  position: fixed;
+  left: 50%;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.column {
+  flex: content;
+  padding: 5px;
+}
+
+img {
+  float: left;
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+h2 {
+  position: relative;
+  left: 50%;
+}
+
+#text {
+  position: relative;
+  left: 50%;
+}
+
+#explore {
+  position: relative;
+  top: 50px;
+  left: 38%;
+}

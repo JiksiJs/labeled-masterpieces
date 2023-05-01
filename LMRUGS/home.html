@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <script src="scripts/scripts.js" defer></script>
+    <title>Home Page</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <img src="images/logo.webp" id="logo" />
+          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="home.html">Home</a></li>
+          <img src="images/search-icon.webp" id="search-icon" />
+          <div class="searchbar">
+            <input
+              type="text"
+              placeholder="Search..."
+              id="search-bar"
+              style="display: none"
+            />
+            <button style="display: none" id="closeBtn">X</button>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <div class="row">
+          <div class="column" id="first-div">
+            <button id="collections">Collections</button>
+            <img
+              src="images/welcome-image.webp"
+              style="width: 100%"
+              id="img-one"
+            />
+            <img
+              src="images/alocasia.jpeg"
+              id="alocasia"
+              style="display: none"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="images/blue-monstera.jpeg"
+              style="width: 100%; height: 95%"
+              id="img-two"
+            />
+          </div>
+          <div class="column">
+            <img
+              src="images/watermelon.jpeg"
+              style="width: 100%; height: 95%"
+              id="img-three"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
